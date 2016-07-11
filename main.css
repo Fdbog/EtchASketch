@@ -4,15 +4,27 @@ height: 100%;
 
 }
 
-
+/*Flex Box*/
 #wrapper {
-  height: 90%;
-  width: 90%;
-  margin:0px auto;
+  height: 900px;
+  width: 1200px;
+  margin:10% auto;
+/*Creating Flex Box*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
 }
 
 .divBox {
-  background-color:  #f2ffe6;
+  background-color:  #70dc0d;
+  max-width:100px;
+  max-height:100px;
+  min-width: 10%;
+  min-height: 10%;
 
-
+  flex: 1 1 1;
+  margin:1px;
 }
